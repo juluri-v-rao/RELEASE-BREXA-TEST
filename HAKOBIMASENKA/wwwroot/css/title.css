@@ -1,0 +1,50 @@
+﻿html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.title-screen {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    cursor: pointer;
+    background-image: url('/images/titlescreen_5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.title-logo {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    max-width: 850px;
+    height: auto;
+    justify-content:center;
+}
+
+.company-panel {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    width: 430px;
+    height: 65px;
+    background: rgb(32,56,100);
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-name {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
